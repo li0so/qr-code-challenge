@@ -2,22 +2,28 @@
 /* This line of text has been added from my MacOS device. Testing the sync via Git between the Windows and MacOS platform. */
 
 * {
-    font-family: "Outfit", sans-serif;
-    background-color: #D5E1EF;
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
 }
 
 .qr-wrapper {
-    background-color: white;
-    border-radius: 15px;
-    margin: auto;
-    height: 40em;
-    width: 20em;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  height: 40em;
+  width: 20em;
+}
+
+img {
+  border-radius: 10px;
+  height: 10rem;
+  width: 10rem;
 }
 
 .sub-header {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .caption {
-    font-weight: 400;
+  font-weight: 400;
 }
