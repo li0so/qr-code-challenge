@@ -2,6 +2,22 @@
 /* This line of text has been added from my MacOS device. Testing the sync via Git between the Windows and MacOS platform. */
 
 * {
-    font-family: sans-serif;
+    font-family: "Outfit", sans-serif;
+    background-color: #D5E1EF;
 }
 
+.qr-wrapper {
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    height: 40em;
+    width: 20em;
+}
+
+.sub-header {
+    font-weight: 700;
+}
+
+.caption {
+    font-weight: 400;
+}
