@@ -6,18 +6,22 @@
   background-color: #d5e1ef;
 }
 
-.qr-wrapper {
+.section-wrapper {
   background-color: white;
+  display: flex;
+  justify-content: center;
   border-radius: 10px;
   margin: auto;
   height: 40em;
-  width: 20em;
+  width: 15em;
 }
 
 img {
   border-radius: 10px;
-  height: 10rem;
-  width: 10rem;
+  height: 40%;
+  width: 80%;
+  margin-top: 1em;
+  border: 1px solid black;
 }
 
 .sub-header {
@@ -26,4 +30,9 @@ img {
 
 .caption {
   font-weight: 400;
+}
+
+.qr-code-image {
+  border: 1px solid black;
+  
 }
