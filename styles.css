@@ -1,6 +1,12 @@
 /* This is a placeholder to have some changes to save */
 /* This line of text has been added from my MacOS device. Testing the sync via Git between the Windows and MacOS platform. */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", serif;
@@ -27,16 +33,22 @@ img {
   background-color: white;
   max-width: 300px;
   border-radius: 1.25em;
-  padding: 1em;
+  padding: 1.3em;
+  padding-bottom: 1.5em;
   margin: auto;
 }
 
 .wrapper h2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
   font-weight: 700;
+  max-width: 13em;
 }
 
 .wrapper p {
-  font-size: 15px;
-  font-weight: 300;
+  padding-bottom: 0.5em;
+  font-size: 16px;
+  font-weight: 400;
   color: hsl(216, 15%, 48%);
+  max-width: 16em;
 }
