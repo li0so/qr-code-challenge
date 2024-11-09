@@ -1,21 +1,16 @@
 /* This is a placeholder to have some changes to save */
 /* This line of text has been added from my MacOS device. Testing the sync via Git between the Windows and MacOS platform. */
 
-* {
-  font-family: "Outfit", sans-serif;
-  background-color: #d5e1ef;
-}
-
-.qr-wrapper {
-  background-color: white;
-  border-radius: 15px;
-  margin: auto;
-  height: 40em;
-  width: 20em;
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 img {
-  max-width: 90%;
+  max-width: 100%;
   border-radius: 1em;
 }
 
@@ -23,6 +18,25 @@ img {
   font-weight: 700;
 }
 
-.caption {
-  font-weight: 400;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  max-width: 300px;
+  border-radius: 1.25em;
+  padding: 1em;
+  margin: auto;
+}
+
+.wrapper h2 {
+  font-weight: 700;
+}
+
+.wrapper p {
+  font-size: 15px;
+  font-weight: 300;
+  color: hsl(216, 15%, 48%);
 }
